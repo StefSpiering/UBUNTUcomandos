@@ -206,6 +206,29 @@
 | Comando | Uso | Ejemplo de Uso |
 | --- | --- | --- |
 | `docker-compose` | Definir y ejecutar aplicaciones multi-contenedor con Docker Compose | `docker-compose up` |
+¡Entiendo! Aquí están los comandos del laboratorio en el formato específico que estás buscando:
+
+### Ejecución de Comandos Manjaro Linux
+
+
+### Comandos de la Práctica de Laboratorio
+
+| Comando | Uso | Ejemplo de Uso |
+| --- | --- | --- |
+| `sudo pacman -Sy` | Actualizar paquetes disponibles en el sistema operativo | `sudo pacman -Sy` |
+| `sudo pacman -S unrar zip unzip gzip bzip2` | Instalar paquetes para comprimir y descomprimir archivos | `sudo pacman -S unrar zip unzip gzip bzip2` |
+| `sudo pacman -S yay` | Instalar el Repositorio AUR (Arch User Repository) | `sudo pacman -S yay` |
+| `sudo yay -S --needed base-devel` | Instalar paquetes base para el desarrollo desde AUR | `sudo yay -S --needed base-devel` |
+| `yay -S google-chrome` | Instalar Google Chrome a través de yay | `yay -S google-chrome` |
+| `sudo pacman -S apache` | Instalar el servidor web Apache | `sudo pacman -S apache` |
+| `sudo systemctl start httpd` | Iniciar el servicio de Apache | `sudo systemctl start httpd` |
+| `uname -a` | Mostrar información del kernel del sistema operativo | `uname -a` |
+| `git clone https://github.com/mortasoft/linux-scripts` | Clonar un repositorio de GitHub | `git clone https://github.com/mortasoft/linux-scripts` |
+| `sudo useradd -m nombredeusuario -G wheel -p passworddelusuario` | Agregar un nuevo usuario con privilegios de sudo | `sudo useradd -m nombredeusuario -G wheel -p passworddelusuario` |
+| `cp /etc/a* dirdos` | Copiar archivos de /etc cuyo nombre comienza con "a" a la carpeta dirdos | `cp /etc/a* dirdos` |
+| `mv archivo0 dir004` | Mover el archivo archivo0 a la carpeta dir004 | `mv archivo0 dir004` |
+| `history > historial.txt` | Guardar el historial de comandos en un archivo llamado historial.txt | `history > historial.txt` |
+| `grep -rs "papirus" $HOME` | Buscar la palabra "papirus" en la carpeta home del usuario | `grep -rs "papirus" $HOME` |
 
 
 
